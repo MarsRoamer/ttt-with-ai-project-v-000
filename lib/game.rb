@@ -113,7 +113,7 @@ class Game
       puts "\n\n"
 
       while !over?
-        puts "It is now #{current_player.token}'s move"
+        # puts "It is now #{current_player.token}'s move"
 
         turn
         @board.display
