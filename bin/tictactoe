@@ -23,8 +23,8 @@ require_relative '../config/environment'
        player2 = Players::Human.new("O")
      else
        puts "Please enter a valid selection"
-     end
-end
+
+
 
    end
 
