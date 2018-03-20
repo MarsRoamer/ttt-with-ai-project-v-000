@@ -24,7 +24,7 @@ require_relative '../config/environment'
      else
        puts "Please enter a valid selection"
      end
-
+end
 
    end
 
