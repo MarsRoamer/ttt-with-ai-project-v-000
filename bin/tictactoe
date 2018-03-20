@@ -7,7 +7,7 @@ require_relative '../config/environment'
    if input.to_i == 1
      puts "Enter '1' if you would like to go first and be X,\nor enter '2' if you'd like to go second and be 'O'?"
      token = gets.strip
-     player1 =
+   end
 
    game1 = Game.new(Players::Computer.new("X"), Players::Computer.new("O"), board = Board.new)
    game1.play
