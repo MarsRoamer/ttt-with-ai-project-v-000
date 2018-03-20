@@ -9,15 +9,18 @@ require_relative '../config/environment'
      player1 = Players::Computer.new("X")
      player2 = Players::Computer.new("O")
    elsif input.to_i == 1
-     puts "Enter '1' if you would like to go first and be X,\nor enter '2' if you'd like to go second and be 'O'?"
-     selection = gets.strip
-       if selection.to_i == 1
-         player1 = Players::Human.new("X")
-         player2 = Players::Computer.new("O")
-       elsif selection.to_i == 2
-         player1 = Players::Computer.new("X")
-         player2 = Players::Human.new("O")
-       end
+    #  puts "Enter '1' if you would like to go first and be X,\nor enter '2' if you'd like to go second and be 'O'?"
+    #  selection = gets.strip
+    #    if selection.to_i == 1
+    #      player1 = Players::Human.new("X")
+    #      player2 = Players::Computer.new("O")
+    #    elsif selection.to_i == 2
+    #      player1 = Players::Computer.new("X")
+    #      player2 = Players::Human.new("O")
+      #  end
+       player1 == Players::Human.new("X")
+       player2 = Players::Computer.new("O")
+
      elsif input.to_i == 2
        player1 == Players::Human.new("X")
        player2 = Players::Human.new("O")
